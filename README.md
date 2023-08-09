@@ -15,7 +15,7 @@ This header generation scripts provides the capabilities to generate a .h and .h
 **Config/:** Contains input json files
 **Example.json:** input example config file that contains C structs and data to be generated in the header file  
 **template.json:** Reference file/guide to be followed when adding new elements into input json file  
-**JsontoC_HeaderGenerator.py:** The main Python script to be run for header file generation. Check [usage](##Usage) for more details  
+**JsontoC_HeaderGenerator.py:** The main Python script to be run for header file generation. Check [Usage](#Usage) for more details  
 **CFileHandler.py:** A class to be used for creation of C header files. Will be called by JsontoC_HeaderGenerator.py    
 
 ## Usage
