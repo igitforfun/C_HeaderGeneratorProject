@@ -1,0 +1,77 @@
+//This is a template configuration json file to serve as a guide for configuration to actual config json files in Config/ folder.
+{
+    "Premacros": [
+        {
+            "param": "name of the Pre Compiler macros, "" is not allowed, either remove it or put in a value",
+            "description": "short description of this Pre Compiler macro",
+            "value": "value of the macro to be defined to, "" is not allowed, either remove it or put in a value"
+        },
+        {
+            "param": "~",
+            "description": "~",
+            "value": "~"
+        }
+    ],
+    "Structs": [
+        {
+            "name": "struct1",
+            "description": "short description of struct1",
+            "packed": "bool type, enter true or false, "" is treated as false",
+            "aligned":"number of memory alignment in a struct, "" and 0 is treated as no alignment",
+            "data": [
+                {
+                    "param":"data name1",
+                    "description": "short description for data name 1",
+                    "type": "data type of name1"
+                },
+                {
+                    "param": "add accordingly",
+                    "description": "add accordingly",
+                    "type": "add accordingly"
+                }
+            ]
+        },
+        {
+            "name": "struct2",
+            "description": "~",
+            "packed": "~",
+            "aligned": "~",
+            "data": [
+                {
+                    "param":"~",
+                    "description": "~",
+                    "type": "~"
+                }
+            ]
+        }
+    ],
+    "Enums": [
+        {
+            "name": "name of enum1 structure, "" is not allowed",
+            "description": "short description of this enum structure",
+            "data": [
+                {
+                    "param": "enum1, "" is not allowed",
+                    "description": "short description of enum1",
+                    "value": "value of enum1, "" is not allowed"
+                },
+                {
+                    "param":"add accordingly",
+                    "description": "add accordingly",
+                    "value": "add accordingly"
+                }
+            ]
+        },
+        {
+            "name": "name of enum2 structure, "" is not allowed",
+            "description": "~",
+            "data": [
+                {
+                    "param":"~",
+                    "description": "~",
+                    "value": "~"
+                }
+            ]
+        }
+    ]
+}

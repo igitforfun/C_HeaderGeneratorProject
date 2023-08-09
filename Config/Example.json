@@ -1,0 +1,101 @@
+{
+    "Premacros": [
+        {
+            "param": "PREMACRO1",
+            "description": "Description of Premacro 1",
+            "value": "0"
+        },
+        {
+            "param": "PREMACRO2",
+            "description": "Description of Premacro 2",
+            "value": "1"
+        }
+    ],
+    "Structs": [
+        {
+            "name": "struct_one",
+            "description": "Description of struct one",
+            "packed": "true",
+            "aligned":"1",
+            "data": [
+                {
+                    "param":"var1",
+                    "description":"Description of var1",
+                    "type": "int"
+                },
+                {
+                    "param":"var2",
+                    "description":"Description of var2",
+                    "type": "char"
+                },
+                {
+                    "param": "var3",
+                    "description":"Description of var3",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "struct_two",
+            "description": "Description of struct two",
+            "packed": "true",
+            "aligned": "1",
+            "data": [
+                {
+                    "param":"param1",
+                    "description": "Description of param1",
+                    "type": "int"
+                },
+                {
+                    "param":"param2",
+                    "description": "Description of param2",
+                    "type": "struct_one"
+                }
+            ]
+        }
+    ],
+    "Enums": [
+        {
+            "name": "enumExample",
+            "description": "Description of enumExample",
+            "data": [
+                {
+                    "param":"enum1",
+                    "description": "Description of enum1",
+                    "value": "0"
+                },
+                {
+                    "param":"enum2",
+                    "description": "Description of enum2",
+                    "value": "1"
+                },
+                {
+                    "param": "enum3",
+                    "description": "Description of enum3",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "name": "enumExampleTwo",
+            "description": "Description of enumExample two",
+            "data": [
+                {
+                    "param":"enum1",
+                    "description": "Description of enum1",
+                    "value": "0"
+                },
+                {
+                    "param":"enum2",
+                    "description": "Description of enum2",
+                    "value": "10"
+                },
+                {
+                    "param": "enum3",
+                    "description": "Description of enum3",
+                    "value": "99"
+                }
+            ]
+        }
+    ]
+}
